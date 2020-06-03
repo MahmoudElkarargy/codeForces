@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D6CD16712487328B00775B8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6CD16702487328B00775B8D /* main.cpp */; };
+		D6CD16712487328B00775B8D /* Watermelon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6CD16702487328B00775B8D /* Watermelon.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		D6CD166D2487328B00775B8D /* codeForces */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codeForces; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6CD16702487328B00775B8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D6CD16702487328B00775B8D /* Watermelon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Watermelon.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,17 @@
 		D6CD166F2487328B00775B8D /* codeForces */ = {
 			isa = PBXGroup;
 			children = (
-				D6CD16702487328B00775B8D /* main.cpp */,
+				D6CD16772487330000775B8D /* A problems */,
 			);
 			path = codeForces;
+			sourceTree = "<group>";
+		};
+		D6CD16772487330000775B8D /* A problems */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD16702487328B00775B8D /* Watermelon.cpp */,
+			);
+			path = "A problems";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6CD16712487328B00775B8D /* main.cpp in Sources */,
+				D6CD16712487328B00775B8D /* Watermelon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
